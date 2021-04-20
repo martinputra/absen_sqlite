@@ -1,0 +1,19 @@
+{
+  "name": "absen_sqlite",
+  "version": "1.0.0",
+  "description": "absen_sqlite",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --watch",
+    "migration:student": "node ./model/schema/studentSchema.js"
+  },
+  "keywords": [],
+  "author": "martinuspratama",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "sqlite3": "^5.0.2"
+  }
+}

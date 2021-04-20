@@ -1,0 +1,33 @@
+###
+POST http://localhost:8000/api/student
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name" : "Sesuatu",
+    "email" : "seseorang@gmail.com",
+    "telephone" : "08997868546",
+    "batch" : "7"
+}
+
+###
+GET http://localhost:8000/api/student
+Content-Type: application/json
+Accept: application/json
+
+###
+DELETE http://localhost:8000/api/student
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 3
+}
+
+###
+PATCH http://localhost:8000/api/student/edit/2
+Content-Type: application/json
+
+{
+    "email" : "testing@gmail.com"
+}
